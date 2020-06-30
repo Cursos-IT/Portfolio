@@ -1,0 +1,74 @@
+/* HEADER */
+
+/* RESET  - resetea los estilos por defecto del navegador */
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, img, small, 
+strong, center, ul, li, form, label, article, aside, figure, figcaption, 
+footer, header, menu, nav, section, audio, video, main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.8em; }
+h6 { font-size: 0.7em; }
+
+
+.button, a, a:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.Header {
+    background-color: #150811;
+    padding: 1rem;
+}
+
+.Header__menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Header__menu a {
+    color: #0CBABA;
+}
+
+.Header__menu a:hover {
+    color: #0ff0f0;
+}
+
+
+
+
+
+
+
+
+.colores {
+    color: #01BAEF;
+    color: #0CBABA;
+    color: #0ff0f0; /* over green */
+    color: #380036; /* menos oscuro */
+    color: #26081C;
+    color: #150811; /* mas oscuro */
+}
